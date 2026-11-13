@@ -1,0 +1,21 @@
+/* "Uninstall" item: only the text is red */
+.popup-menu-item.app-uninstall-item,
+.popup-menu-item.app-uninstall-item:hover,
+.popup-menu-item.app-uninstall-item:focus,
+.popup-menu-item.app-uninstall-item:active {
+  color: #ed333b;
+}
+
+/* Confirm button in the dialog: only the text is red */
+.modal-dialog-linked-button.app-uninstall-confirm,
+.modal-dialog-linked-button.app-uninstall-confirm:hover,
+.modal-dialog-linked-button.app-uninstall-confirm:focus {
+  color: #ed333b;
+}
+
+/* Shown when the app cannot be removed (click it to see why) */
+.popup-menu-item.app-uninstall-item.app-uninstall-unavailable,
+.popup-menu-item.app-uninstall-item.app-uninstall-unavailable:hover,
+.popup-menu-item.app-uninstall-item.app-uninstall-unavailable:focus {
+  color: #9a9996;
+}

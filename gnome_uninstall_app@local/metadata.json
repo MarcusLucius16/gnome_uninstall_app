@@ -1,0 +1,7 @@
+{
+  "uuid": "gnome_uninstall_app@local",
+  "name": "gnome_uninstall_app",
+  "description": "Adds a red Uninstall item to the app context menu. Fully removes the app on pacman, dpkg, rpm, Flatpak, Snap, Steam and AppImage. Nothing else is touched.",
+  "shell-version": ["46", "47", "48", "49", "50", "51"],
+  "version-name": "0.3.0"
+}
